@@ -1,0 +1,16 @@
+footer {
+    align-content:center; 
+    margin:auto; 
+    width:25%;
+}
+
+.info {
+    color:red; 
+    text-align:center;
+}
+
+#point {
+    height:1000px; 
+    background:#1b0e8a; 
+    margin:0px;
+}
