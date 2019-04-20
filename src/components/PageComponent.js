@@ -20,7 +20,7 @@ class PageComponent extends Component {
       <Waypoint
         onEnter={this.props.callback}
       />
-      <h1 style={{ color: this.props.textColor, fontFamily: 'Roboto', fontSize: 56, margin: 0 }}>{this.props.text}</h1>
+      <h1 style={{ color: this.props.textColor, fontFamily: 'Montserrat', fontSize: 56, margin: 0 }}>{this.props.text}</h1>
     </div>
   }
 }
