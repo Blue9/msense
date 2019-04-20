@@ -85,7 +85,7 @@ class HomePage extends Component {
 
         <PageComponent
           text="The opioid epidemic takes 130 lives every day."
-          textColor="#003366"
+          textColor="#001133"
           callback={(o) => this.updateBackground(o, 0)}
         />
         <PageComponent
@@ -94,7 +94,7 @@ class HomePage extends Component {
           callback={(o) => this.updateBackground(o, 1)}
         />
         <PageComponent
-          text="my peepee hard?"
+          text="POO POO PAAAPAPAPAPAAPPA!!!! PAAHHH!!!!?"
           textColor="white"
           callback={(o) => this.updateBackground(o, 2)}
         />
