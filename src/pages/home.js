@@ -1,7 +1,6 @@
 import style from '../styles/pages/home.scss';
 
 import React, { Component } from 'react';
-import { Waypoint } from 'react-waypoint';
 import PageComponent from '../components/PageComponent.js';
 import Navbar from '../components/Navbar.js';
 
@@ -58,26 +57,29 @@ class HomePage extends Component {
 
         <div className="landing" style={{ height: '100vh', width: '100%', position: 'relative' }}>
           <Navbar />
-          <div style={{textAlign: 'center', marginTop: '20vh'}}>
+          <div style={{ textAlign: 'center', marginTop: '20vh' }}>
             <h1 style={{
-              fontFamily: 'Roboto',
-              textAlign: 'center',
+              fontFamily: 'Roboto Slab',
+              textAlign: 'left',
               color: 'white',
               fontSize: 80,
               fontWeight: 400,
-              display: 'inline',
+              display: 'inline-block',
               textShadow: '0 0 20px #000000'
-            }}>Welcome to HealthX</h1>
+            }}>
+              Engineering <br /> World <br /> Health
+            </h1>
           </div>
           <div style={{ zIndex: '-1', position: 'absolute', top: 0, width: '100%', height: '100vh' }}>
-            <video autoPlay loop
-              src="https://drive.google.com/uc?export=download&id=1SU_lXaSOZg8oBZC_j4VIRlXdwkTbJTj8"
+            <video playsInline autoPlay muted loop
               style={{
                 width: '100%',
                 height: '100vh',
                 objectFit: 'cover'
               }}
-            ></video>
+            >
+              <source src="https://drive.google.com/uc?export=download&id=1SU_lXaSOZg8oBZC_j4VIRlXdwkTbJTj8" type="video/mp4"></source>
+            </video>
           </div>
         </div>
 
